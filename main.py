@@ -31,8 +31,8 @@ task_map = {
 }
 
 # Change variable here
-ALGORITHM_NAME = 'momcts'  # Could also be 'MEoH' or 'NSGA2'
-PROBLEM_NAME = "tsp_semo" # Could also be "tsp_semo, bi_kp, bi_cvrp"
+ALGORITHM_NAME = 'moead'  # Could also be 'MEoH' or 'NSGA2'
+PROBLEM_NAME = "tri_tsp" # Could also be "tsp_semo, bi_kp, bi_cvrp"
 exact_log_dir_name = "nhv_runtime/v10" # must be unique here
 API_KEY = os.getenv("MISTRAL_API_KEY") # change APIKEY1, APIKEY2, APIKEY3
 
